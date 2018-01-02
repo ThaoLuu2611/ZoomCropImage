@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CropOverlayView"><attr format="boolean" name="guideLines"/><attr format="boolean" name="drawCircle"/><attr format="dimension" name="marginTop"/><attr format="dimension" name="marginSide"/><attr format="dimension" name="minWidth"/><attr format="dimension" name="maxWidth"/><attr format="dimension" name="cornerRadius"/><attr format="color" name="borderColor"/><attr format="color" name="overlayColor"/></declare-styleable>
+</resources>

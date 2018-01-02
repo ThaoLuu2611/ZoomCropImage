@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MergeRootFrame">
+
+    <RelativeLayout
+        android:id="@+id/header_zoom_activty"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_header_activity"
+        android:background="@android:color/background_dark"
+        android:gravity="center"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingRight="@dimen/margin_huge"
+        android:splitMotionEvents="false">
+
+        <Button
+            android:id="@+id/button_crop_zoomactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_bottom_crop_zoom"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_bg_button_default"
+            android:onClick="onSaveZoomCrop"
+            android:paddingLeft="@dimen/margin_normal"
+            android:paddingRight="@dimen/margin_normal"
+            android:text="@string/decide"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_size_small" />
+
+        <ImageButton
+            android:id="@+id/button_back_zoomactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:onClick="onBackZoomActivity"
+            android:padding="@dimen/margin_small"
+            android:src="@drawable/ic_back_text_white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black">
+
+        <RelativeLayout
+            android:id="@+id/wrap_crop_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.albinmathew.photocrop.photoview.PhotoView
+                android:id="@+id/iv_photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:hardwareAccelerated="false"
+                android:scaleType="center" />
+
+            <com.albinmathew.photocrop.cropoverlay.CropOverlayView
+                android:id="@+id/crop_overlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:borderColor="@android:color/white"
+                app:guideLines="false"
+                app:marginSide="0dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pinch_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#88000000"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/margin_40"
+                android:paddingLeft="@dimen/margin_40"
+                android:paddingRight="@dimen/margin_40">
+
+                <ImageView
+                    android:id="@+id/pinch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pinch" />
+
+                <ImageView
+                    android:id="@+id/spread"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/spread" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text_hint_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="#D222"
+                android:gravity="center"
+                android:text="@string/hint_text_pinch_photo"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

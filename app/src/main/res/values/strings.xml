@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ZoomCrop</string>
+    <string name="hint_text_pinch_photo">You can change the size and position of the photo.</string>
+    <string name="decide">Decide</string>
+</resources>

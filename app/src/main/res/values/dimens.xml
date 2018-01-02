@@ -1,0 +1,101 @@
+<resources>
+
+    <!-- Common -->
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_large">15dp</dimen>
+    <dimen name="margin_huge">20dp</dimen>
+    <dimen name="margin_super_huge">25dp</dimen>
+    <dimen name="padding_text_field">10dp</dimen>
+    <dimen name="bg_button_default_corner_radius">5dp</dimen>
+    <dimen name="bg_button_default_progress_bar_radius">15dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+
+    <!-- Font size -->
+    <dimen name="font_size_7dp">7dp</dimen>
+    <dimen name="font_size_tiny_tiny">8dp</dimen>
+    <dimen name="font_size_tiny">10dp</dimen>
+    <dimen name="font_size_small">12dp</dimen>
+    <dimen name="font_size_medium">16dp</dimen>
+    <dimen name="font_size_large">19dp</dimen>
+    <dimen name="font_size_huge">22dp</dimen>
+
+    <!-- Photo Sizes -->
+    <dimen name="photo_select_spacing">5dp</dimen>
+    <dimen name="photo_corner_radius">7dp</dimen>
+    <dimen name="photo_size_dialog_edit">120dp</dimen>
+    <dimen name="diary_photo_size_dialog">270dp</dimen>
+    <dimen name="diary_photo_size_dialog_edit">256dp</dimen>
+    <dimen name="diary_photo_size_timelines_item">90dp</dimen>
+    <dimen name="diary_photo_size_detail">150dp</dimen>
+    <dimen name="photo_size_gallery_selector">110dp</dimen>
+
+    <!-- Bar -->
+    <dimen name="bar_height">50dp</dimen>
+    <dimen name="bottom_bar_height">63dp</dimen>
+    <dimen name="bottom_padding_top">16dp</dimen>
+    <dimen name="bar_item_padding">10dp</dimen>
+    <dimen name="bar_top_padding">10dp</dimen>
+    <dimen name="bar_bottom_padding">3dp</dimen>
+    <dimen name="image_top_bar_width">25dp</dimen>
+    <dimen name="image_top_bar_height">25dp</dimen>
+    <dimen name="corner_radius_home_switch_title">5dp</dimen>
+    <dimen name="border_home_switch_title">1dp</dimen>
+
+    <!-- Divider line height -->
+    <dimen name="divider_line_height_small">1dp</dimen>
+    <dimen name="divider_line_height_medium">2dp</dimen>
+    <dimen name="divider_line_height_large">3dp</dimen>
+
+    <!-- Calendar -->
+    <dimen name="calendar_month">37dp</dimen>
+
+    <!-- Settings -->
+    <dimen name="setting_group_line">2dp</dimen>
+    <dimen name="setting_item_line">1dp</dimen>
+
+    <!-- Book Flipping -->
+    <dimen name="book_padding_in_edit">30dp</dimen>
+    <dimen name="book_reading_page_switcher_width">250dp</dimen>
+    <dimen name="book_reading_padding_bottom_switcher_bg">10dp</dimen>
+    <dimen name="book_reading_padding_bottom_switcher_coin">5dp</dimen>
+    <dimen name="book_spine_w">10dp</dimen>
+
+    <!-- Baby Register -->
+
+    <dimen name="baby_register_name_padding">15dp</dimen>
+    <dimen name="baby_register_name_margin_left">25dp</dimen>
+    <dimen name="baby_register_name_margin_right">25dp</dimen>
+    <dimen name="baby_register_name_layout_margin_left">20dp</dimen>
+
+    <!-- List Book -->
+    <dimen name="title_book_width">115dp</dimen>
+    <dimen name="title_book_height">90dp</dimen>
+    <dimen name="title_book_padding_left">5dp</dimen>
+    <dimen name="title_book_padding_right">10dp</dimen>
+    <dimen name="book_list_padding_left">10dp</dimen>
+
+    <!-- Edittext Title Book -->
+    <dimen name="edittext_title_book_margin_left">20dp</dimen>
+    <dimen name="edittext_title_book_margin_right">20dp</dimen>
+    <dimen name="edittext_title_book_padding">7dp</dimen>
+    <dimen name="edittext_title_book_drawable_padding">5dp</dimen>
+
+    <!-- Over View Book -->
+    <dimen name="over_view_book_padding">30dp</dimen>
+    <dimen name="over_view_book_bottom_hint_left_margin">90dp</dimen>
+    <dimen name="over_view_book_button_margin_bottom">30dp</dimen>
+    <dimen name="over_view_book_button_height">50dp</dimen>
+
+    <!-- Detail diary photo -->
+    <dimen name="size_text_month_day">40sp</dimen>
+    <dimen name="diary_photo_size_detail_max">175dp</dimen>
+    <dimen name="diary_photo_size_detail_min">130dp</dimen>
+    <dimen name="padding_diary_photo">8dp</dimen>
+
+    <!-- Zoom and Crop Photo -->
+    <dimen name="dimen_header_activity">80dp</dimen>
+    <dimen name="dimen_bottom_crop_zoom">35dp</dimen>
+</resources>
